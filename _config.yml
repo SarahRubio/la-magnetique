@@ -13,9 +13,9 @@ whitelist:
 defaults:
   -
     scope:
-      path:            "assets/**"
+      path: "assets/**"
     values:
-      sitemap:         false
+      sitemap: false
 
 timezone: Europe/Paris
 tagline: Laboratoire d'expérimentation et de création sonore sous forme d'ateliers
