@@ -4,9 +4,9 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ site.url }}">
         {% if page.logo %}
-        <img src="./assets/img{{ page.logo }}.png" alt="La magnétique">
+        <img src="{{ site.baseurl }}/assets/img/{{ page.logo }}.png" alt="La magnétique">
         {% else %}
-        <img src="./assets/imglogo.png" alt="La magnétique">
+        <img src="{{ site.baseurl }}/assets/img/logo.png" alt="La magnétique">
         {% endif %}
       </a>
       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">

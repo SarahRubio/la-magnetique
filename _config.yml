@@ -6,6 +6,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate 
   - jekyll-redirect-from 
+base-url: "la-magnetique"
 
 whitelist:
   - jekyll-redirect-from
