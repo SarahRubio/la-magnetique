@@ -25,7 +25,7 @@ background-color: aquablue
             <h3 class="mt-0">&rarr; Florian Sauvaire</h3>
             <div class="columns is-centered">
                 <div class="column is-4">
-                    <img src="/assets/img/florian.png" alt="Florian Sauvaire">
+                    <img src="./assets/imgflorian.png" alt="Florian Sauvaire">
                 </div>
                 <div class="column is-8">
                     <p>Batteur de formation, Florian a développé sa carrière musicale en Angleterre où il a passé plus de 10 ans à collaborer avec de multiples artistes (Ghostpoet, Roxanne Tataei, Will Joseph Cook, Deafkid).</p>
@@ -40,7 +40,7 @@ background-color: aquablue
             <h3 class="mt-0">&rarr; Achille Reig</h3>
             <div class="columns is-centered">
                 <div class="column is-4">
-                    <img src="/assets/img/achille.png" alt="Achille Reig">
+                    <img src="./assets/imgachille.png" alt="Achille Reig">
                 </div>
                 <div class="column is-8">
                     <p>Après une licence 3 en pédagogie musicale, Achille est diplômé musicien intervenant en 2018 au CFMI de Tours.</p>
