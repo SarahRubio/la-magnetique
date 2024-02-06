@@ -31,7 +31,7 @@ image: nos-ateliers
     <div class="column is-4-desktop is-8-mobile">
         <div>
         <div class="image is-1by1">
-            <img src="/images/{{page.image}}.png" alt="">
+            <img src="/assets/img/{{page.image}}.png" alt="">
         </div>  
         </div>
     </div>
