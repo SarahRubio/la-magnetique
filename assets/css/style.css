@@ -126,20 +126,17 @@ strong {
     color: inherit;
 }
 
-footer {
-    background-color: inherit !important;
-}
-
-.ateliers a {
+.default a {
     display: inline-block;
     border: inherit solid 2px;
     border-radius: 4rem;
 }
 
-.v-bottom {
-    vertical-align: bottom;
+.inline-block {
+    display: inline-block;
 }
 
-hr {
-    background-color: #224d52;
+.default h1 {
+    background-color: inherit;
+    color: inherit;
 }
