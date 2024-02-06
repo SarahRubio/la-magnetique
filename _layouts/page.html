@@ -6,7 +6,7 @@
     <main id="content" role="main" class="has-text-justified">
       <div class="columns is-mobile is-multiline is-centered mt-5 mb-5 pt-6">
           <div class="column is-4-desktop is-10-mobile p-0">
-            <h1 class="mb-5 mt-0">{{ page.title }}</h1>
+            <h1 class="mt-0 mb-6">{{ page.title }}</h1>
             {% if page.intro %}
               <div>
                 {% for intro in page.intro %}
@@ -15,7 +15,7 @@
               </div>
             {% endif %}
             {% if page.objectifs %}
-              <div class="mt-2">
+              <div class="mt-2 mt-6">
                 <p class="my-3"><strong>&#8594; Objectifs</strong></p>
                 <ul>
                   {% for objectif in page.objectifs %}
@@ -24,6 +24,16 @@
                 </ul>
               </div>
             {% endif %}
+            {% if page.idees %}
+            <div class="mt-2 mb-6">
+              <p class="my-3"><strong>&#8594; Quelques idées</strong></p>
+              <ul>
+                {% for idee in page.idees %}
+                <li class="mb-2">&bull; {{ idee }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
           </div>
           <div class="column is-1-desktop is-0-mobile p-0"></div>
           <div class="column is-4-desktop is-10-mobile p-0">
@@ -32,7 +42,7 @@
             </figure>
           </div>
       </div>
-      <div class="columns is-mobile is-multiline is-centered">
+      <div class="columns is-mobile is-multiline is-centered mb-6">
       {% if page.etapes %}
       <div class="column is-9-desktop is-10-mobile columns is-mobile is-multiline p-0 mt-5">
         <div class="column is-6-desktop is-10-mobile">
@@ -49,9 +59,9 @@
         {% endfor %}
       </div>
       {% endif %}
-      <div class="column is-9-desktop is-10-mobile columns is-mobile is-multiline is-centered">
+      <div class="column is-9-desktop is-10-mobile columns is-mobile is-multiline is-centered pl-0">
         {% if page.materiel %}
-        <div class="column mt-2 is-6-desktop is-10-mobile">
+        <div class="column mt-2 is-8-desktop is-10-mobile">
           <h2 class="my-3 mx-0">Matériel mis à disposition</h2>
           <ul>
             {% for mat in page.materiel %}

@@ -2,9 +2,10 @@
 layout: default
 title: Contact
 background-color: blueduck
+logo: logo-aquablue
 ---
 
-  <div class="columns is-mobile is-multiline is-centered has-text-centered">
+  <div class="columns is-mobile is-multiline is-centered has-text-centered mb-6 pb-6">
     <div class="column is-8 my-5">
       <h1>{{ page.title }}</h1>
     </div>

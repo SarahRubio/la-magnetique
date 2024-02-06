@@ -1,9 +1,13 @@
 <header class="mb-6">
 
-  <nav class="navbar is-transparent">
+  <nav class="navbar is-transparent pt-5 px-5">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ site.url }}">
+        {% if page.logo %}
+        <img src="/images/{{ page.logo }}.png" alt="La magnétique">
+        {% else %}
         <img src="/images/logo.png" alt="La magnétique">
+        {% endif %}
       </a>
       <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -13,8 +17,8 @@
     </div>
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-end">
-          <a class="navbar-item" href="/pages/nos-ateliers">Nos ateliers</a>
-          <a class="navbar-item" href="/pages/contact">Contact</a>
+          <a class="navbar-item is-size-4" href="{{ site.url }}#nos-ateliers">Nos ateliers</a>
+          <a class="navbar-item is-size-4" href="/pages/contact">Contact</a>
       </div>
     </div>
   </nav>

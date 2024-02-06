@@ -1,3 +1,12 @@
+@font-face {
+    font-family: aileron-regular;
+    src: url(/assets/fonts/Aileron-Regular.otf);
+}
+
+body {
+    font-family: aileron-regular;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -39,16 +48,28 @@ h3 {
     color: #b6f5d1;
 }
 
+#bg-blueduck:hover {
+    background-color: #224d52bf;
+}
+
 .bg-blueduck h1,
 .bg-blueduck h2 {
     background-color: #b6f5d1;
     color: #224d52;
 }
 
+.bg-blueduck .navbar a:hover {
+    color: #b6f5d1bd; 
+}
+
 .bg-aquablue,
 #bg-aquablue {
     color: #224d52 !important;
     background-color: #b6f5d1;
+}
+
+.bg-aquablue a.navbar-item:hover {
+    color: #224d52c2 !important;
 }
 
 .bg-aquablue h1,
@@ -63,6 +84,10 @@ h3 {
     color: #224d52;
 }
 
+#bg-yellow:hover {
+    background-color: #f5faa0c4;
+}
+
 .bg-yellow h1,
 .bg-yellow h2 {
     background-color: #224d52;
@@ -75,6 +100,10 @@ h3 {
     color: #224d52;
 }
 
+#bg-orange:hover {
+    background-color: #fad7aac4;
+}
+
 .bg-orange h1,
 .bg-orange h2 {
     background-color: #224d52;
@@ -85,6 +114,10 @@ h3 {
 #bg-azur {
     background-color: #ccf5fd;
     color: #224d52;
+}
+
+#bg-azur:hover{
+    background-color: #ccf5fdcf;
 }
 
 .bg-azur h1,
@@ -119,7 +152,7 @@ h3 {
 }
 
 a.navbar-item:hover {
-    color: #48c7be;
+    color: #224d52c2 !important;
 }
 
 strong {
@@ -136,7 +169,17 @@ strong {
     display: inline-block;
 }
 
-.default h1 {
-    background-color: inherit;
-    color: inherit;
+.home-page {
+    background-color: unset !important;
+    color: #224d52 !important;
+}
+
+footer {
+    color: #224d52 !important;
+    background-color: #fff !important;
+}
+
+.btn {
+    border: solid 2px #224d52;
+    border-radius: 4rem;
 }

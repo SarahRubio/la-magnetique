@@ -8,15 +8,17 @@ title: Laboratoire d'expérimentations et de créations sonores sous forme d'ate
 image: nos-ateliers
 ---
 
-<div class="columns is-mobile is-multiline is-centered">
-  <div class="column columns is-centered is-8-desktop is-11-mobile has-text-centered">
-    <h1 class="column is-8 has-text-centered">{{ page.title }}</h1>
+<div class="columns is-mobile is-multiline is-centered mt-6 pt-6 mb-3 pb-3">
+  <div class="column columns is-centered is-8-desktop is-11-mobile has-text-centered my-6 py-6">
+    <h1 class="column is-full has-text-centered is-size-1-desktop is-size-4-mobile home-page"><strong>{{ page.title }}</strong></h1>
   </div>
   <div class="column columns is-centered is-8-desktop is-11-mobile has-text-centered">
-    <h2 class="column is-8 mb-5 inline-block has-text-centered">Nos ateliers</h2>
+    <div class="column is-8">
+        <h2 class="mb-6 inline-block has-text-centered is-size-4" id="nos-ateliers">Nos ateliers</h2>
+    </div>
   </div>
 </div>
-<div class="columns is-desktop is-mobile is-multiline is-centered is-vcentered {{ page.layout }} mb-6">
+<div class="columns is-desktop is-mobile is-multiline is-centered is-vcentered {{ page.layout }} mb-6 pb-6">
     <div class="column is-3-desktop is-8-mobile">
         <div><a class="py-2 px-3 m-2" id="bg-azur" href="/pages/atelier-doublage">Doublage</a></div>
         <div><a class="py-2 px-3 m-2" id="bg-yellow" href="/pages/atelier-carte-postale-sonore">Carte postale sonore</a></div>
