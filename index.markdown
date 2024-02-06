@@ -20,13 +20,13 @@ image: nos-ateliers
 </div>
 <div class="columns is-desktop is-mobile is-multiline is-centered is-vcentered {{ page.layout }} mb-6 pb-6">
     <div class="column is-3-desktop is-8-mobile">
-        <div><a class="py-2 px-3 m-2" id="bg-azur" href="/pages/atelier-doublage">Doublage</a></div>
-        <div><a class="py-2 px-3 m-2" id="bg-yellow" href="/pages/atelier-carte-postale-sonore">Carte postale sonore</a></div>
-        <div><a class="py-2 px-3 m-2" id="bg-orange" href="/pages/atelier-boite-a-sons">Boîte à sons</a></div>
-        <div><a class="py-2 px-3 m-2" id="bg-blueduck" href="/pages/atelier-lutherie-electronique">Lutherie électronique</a></div>
-        <div><a class="py-2 px-3 m-2" id="bg-yellow" href="/pages/atelier-piezo">Piezo</a></div>
-        <div><a class="py-2 px-3 m-2" id="bg-orange" href="/pages/atelier-paysage-sonore">Paysage sonore</a></div>
-        <div><a class="py-2 px-3 m-2" id="bg-azur" href="/pages/ateliers-sur-mesure">Ateliers sur mesure</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-azur" href="{{ site.baseurl }}/pages/atelier-doublage">Doublage</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-yellow" href="{{ site.baseurl }}/pages/atelier-carte-postale-sonore">Carte postale sonore</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-orange" href="{{ site.baseurl }}/pages/atelier-boite-a-sons">Boîte à sons</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-blueduck" href="{{ site.baseurl }}/pages/atelier-lutherie-electronique">Lutherie électronique</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-yellow" href="{{ site.baseurl }}/pages/atelier-piezo">Piezo</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-orange" href="{{ site.baseurl }}/pages/atelier-paysage-sonore">Paysage sonore</a></div>
+        <div><a class="py-2 px-3 m-2" id="bg-azur" href="{{ site.baseurl }}/pages/ateliers-sur-mesure">Ateliers sur mesure</a></div>
     </div>
     <div class="column is-4-desktop is-8-mobile">
         <div>
