@@ -1,0 +1,30 @@
+<header class="mb-6">
+
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ site.url }}">
+        <img src="/images/logo.png" alt="La magnétique">
+      </a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+          <a class="navbar-item" href="/pages/nos-ateliers">Nos ateliers</a>
+          <a class="navbar-item" href="/pages/contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  {% if page.name == "index.markdown" %}
+  <div class="columns is-mobile is-centered my-5">
+    <figure class="column is-8-desktop is-full-mobile image">
+      <img src="/images/banner.png" alt="">
+    </figure>
+  </div>
+  {% endif %}
+
+</header>

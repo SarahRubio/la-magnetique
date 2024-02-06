@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  {% include head.html %}
+  <body class="bg-{{ page.background-color }}">
+    {% include header.html %}
+    <main id="content" class="main-content {{ page.layout }}" role="main">
+      <div class="columns is-desktop is-mobile is-multiline is-centered is-vcentered">
+        <div class="column is-3-desktop is-8-mobile">
+          <h1 class="mb-5">{{ page.title }}</h1>
+          <div><a class="py-2 px-3 m-2" id="bg-azur" href="/pages/atelier-doublage">Doublage</a></div>
+          <div><a class="py-2 px-3 m-2" id="bg-yellow" href="/pages/atelier-carte-postale-sonore">Carte postale sonore</a></div>
+          <div><a class="py-2 px-3 m-2" id="bg-orange" href="/pages/atelier-boite-a-sons">Boîte à sons</a></div>
+          <div><a class="py-2 px-3 m-2" id="bg-aquablue" href="/pages/atelier-lutherie-electronique">Lutherie électronique</a></div>
+          <div><a class="py-2 px-3 m-2" id="bg-yellow" href="/pages/atelier-piezo">Piezo</a></div>
+          <div><a class="py-2 px-3 m-2" id="bg-orange" href="/pages/atelier-paysage-sonore">Paysage sonore</a></div>
+          <div><a class="py-2 px-3 m-2" id="bg-azur" href="/pages/ateliers-sur-mesure">Ateliers sur mesure</a></div>
+        </div>
+        <div class="column is-4-desktop is-8-mobile">
+          <div>
+            <div class="image is-1by1">
+              <img src="/images/{{page.image}}.png" alt="">
+            </div>  
+          </div>
+        </div>
+      </div>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,15 @@
+---
+title: Atelier Carte postale sonore
+background-color: yellow
+image: carte-postale-sonore
+intro: ["Lors de cet atelier, nous allons créer une carte postale sonore. C’est en fait un paysage auditif de notre monde, et chaque carte postale sonore peut refléter un univers particulier : un quartier, un parc, un festival, un trajet, etc... Chacun de ces paysages sonores possède des sons propres qui le caractérise : le bruit d’une porte, d’un parquet qui craque, d’une foule... Réaliser une carte postale sonore c’est enregistrer ces sons, et les structurer entre eux, afin de raconter des histoires, donner de la vie à des espaces, des personnages et à des lieux.", "Afin d’accompagner le paysage, les participant.es seront invité.es à
+enregistrer une voix off qui permettra d’enrichir le voyage auditif de l’auditeur."]
+objectifs: ["apprendre à enregistrer des sons à l’aide d’un micro portatif", "apprendre les bases de fonctionnement d’un logiciel de Musique Assistée par Ordinateur (MAO)", "savoir nettoyer un fichier audio (edit / compression / fx)", "enregistrer sa voix", "structurer une création audio", "s’initier aux bases du podcast"]
+materiel: ["logigiel de MAO (Logic Pro)", "ordinateurs", "carte son", "micros", "vidéo-projecteur", "écran", "enceintes de monitoring", "objets divers"]
+infos: {"Niveau" : "débutant", "Âges" : "à partir de 7 ans", "Nombre" : "à définir avec la structure", "Durée" : "à définir avec la structure"}
+etapes: {
+    "Phase 1 : Choix du lieu et rédaction du texte" : "Tous les participant.es vont d’abord choisir le lieu / le trajet / l'événement qu’ils souhaitent représenter au sein de leur paysage sonore. <br> Ensuite, l’idée va être de lister l’ensemble des sons que nous évoque cet endroit: Quels sons nous tiennent à cœur ou nous semblent représentatifs de ce lieu ? Dans quel ordre allons nous les structurer et que souhaitons nous raconter avec ces sons ? <br> Dans un deuxième temps chacun.e pourra rédiger son texte. Qu’est ce que l’on souhaite raconter ici ? avec quel ton ? Pour transmettre quelle émotion ?",
+    "Phase 2 : Enregistrement" : "À l’aide de micros portatifs / Smartphones / écouteurs, nous allons nous déplacer dans les différents environnements sélectionnés afin de procéder à la captation sonore. Ensuite nous enregistrerons les textes rédigés lors de la première phase. ",
+    "Phase 3 : Mixage des sons" : "Une fois que chacun.e a récolté tous ses sons, nous allons maintenant procéder au mixage des audios. Pour cela nous utiliserons un logiciel de son qui permet de s’initier aux techniques utilisées en studio d’enregistrement, ainsi que de découvrir les effets sonores (delay, reverb, chorus, etc..). Cela permettra d’obtenir des fichiers sons 'propres', prêts pour le montage. <br> Une fois les audios 'nettoyés', nous allons pouvoir procéder à l’assemblage et à la structuration de la pièce audio. C’est le moment ou chacun va donner une forme à son paysage sonore, pour porter au mieux son propos et sa sensibilité."
+}
+---

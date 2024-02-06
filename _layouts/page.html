@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  {% include head.html %}
+  <body class="bg-{{ page.background-color }}">
+    {% include header.html %}
+    <main id="content" role="main" class="has-text-justified">
+      <div class="columns is-mobile is-multiline is-centered mt-5 mb-5 pt-6">
+          <div class="column is-4-desktop is-10-mobile p-0">
+            <h1 class="mb-5 mt-0">{{ page.title }}</h1>
+            {% if page.intro %}
+              <div>
+                {% for intro in page.intro %}
+                  <p class="mb-2">{{intro}}</p>
+                {% endfor %}
+              </div>
+            {% endif %}
+            {% if page.objectifs %}
+              <div class="mt-2">
+                <p class="my-3"><strong>&#8594; Objectifs</strong></p>
+                <ul>
+                  {% for objectif in page.objectifs %}
+                  <li class="mb-2">&bull; {{ objectif }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          </div>
+          <div class="column is-1-desktop is-0-mobile p-0"></div>
+          <div class="column is-4-desktop is-10-mobile p-0">
+            <figure class="image">
+              <img src="/images/{{page.image}}.png" alt="">
+            </figure>
+          </div>
+      </div>
+      <div class="columns is-mobile is-multiline is-centered">
+      {% if page.etapes %}
+      <div class="column is-9-desktop is-10-mobile columns is-mobile is-multiline p-0 mt-5">
+        <div class="column is-6-desktop is-10-mobile">
+          <h2 class="my-3 mx-0">Étapes de l'atelier →</h2>
+        </div>
+        <div class="column is-6-desktop is-0-mobile"></div>
+        {% for etape in page.etapes %}
+        <div class="column is-6-desktop is-10-mobile py-0">
+          <div class="mt-2">
+            <h3>{{ etape[0] }}</h3>
+            <p class="mb-2">{{ etape[1] }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div class="column is-9-desktop is-10-mobile columns is-mobile is-multiline is-centered">
+        {% if page.materiel %}
+        <div class="column mt-2 is-6-desktop is-10-mobile">
+          <h2 class="my-3 mx-0">Matériel mis à disposition</h2>
+          <ul>
+            {% for mat in page.materiel %}
+            <li class="mb-2">&bull; {{ mat }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if page.infos %}
+        <div class="column mt-2 is-4-desktop is-10-mobile">
+          <h2 class="my-3 mx-0">Infos pratiques</h2>
+          {% for info in page.infos %}
+          <p class="mb-2"><strong>{{ info[0] }} : </strong>{{ info[1] }}</p>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "la-magnetique",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahrubio/la-magnetique.git"
+  },
+  "author": "Sarah Rubio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahrubio/la-magnetique/issues"
+  },
+  "homepage": "https://github.com/sarahrubio/la-magnetique#readme",
+  "dependencies": {
+    "jquery.iframetracker": "^2.1.0",
+    "sharp": "^0.28.1"
+  }
+}

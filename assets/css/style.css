@@ -1,0 +1,145 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+    border: inherit solid 2px;
+    display: inline-block;
+    border-radius: 4rem;
+    font-weight: normal;
+    padding: 0.5rem 1.5rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    border: inherit solid 2px;
+    display: inline-block;
+    border-radius: 4rem;
+    font-weight: normal;
+    padding: 0.5rem 1.5rem;    
+}
+
+h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: #224d52 solid 2px;
+    display: table;
+    border-radius: 4rem;
+    font-weight: 600;
+    padding: 0.1rem 1.5rem;
+}
+
+.bg-blueduck,
+#bg-blueduck {
+    background-color: #224d52;
+    color: #b6f5d1;
+}
+
+.bg-blueduck h1,
+.bg-blueduck h2 {
+    background-color: #b6f5d1;
+    color: #224d52;
+}
+
+.bg-aquablue,
+#bg-aquablue {
+    color: #224d52 !important;
+    background-color: #b6f5d1;
+}
+
+.bg-aquablue h1,
+.bg-aquablue h2 {
+    background-color: #224d52;
+    color: #b6f5d1;
+}
+
+.bg-yellow, 
+#bg-yellow {
+    background-color: #f5faa0;
+    color: #224d52;
+}
+
+.bg-yellow h1,
+.bg-yellow h2 {
+    background-color: #224d52;
+    color: #f5faa0;
+}
+
+.bg-orange,
+#bg-orange {
+    background-color: #fad7aa;
+    color: #224d52;
+}
+
+.bg-orange h1,
+.bg-orange h2 {
+    background-color: #224d52;
+    color: #fad7aa;
+}
+
+.bg-azur,
+#bg-azur {
+    background-color: #ccf5fd;
+    color: #224d52;
+}
+
+.bg-azur h1,
+.bg-azur h2 {
+    background-color: #224d52;
+    color: #ccf5fd;
+}
+
+#menu {
+    display: none;
+}
+
+/* override Bulma navbar */
+.navbar {
+    background-color: inherit;
+}
+
+.navbar-burger {
+    color: inherit;
+}
+
+.navbar-item, .navbar-link {
+    color: inherit;
+}
+
+.navbar-end {
+    font-size: 1.5rem;
+}
+
+.navbar-item img {
+    max-height: 2.75rem;
+}
+
+a.navbar-item:hover {
+    color: #48c7be;
+}
+
+strong {
+    color: inherit;
+}
+
+footer {
+    background-color: inherit !important;
+}
+
+.ateliers a {
+    display: inline-block;
+    border: inherit solid 2px;
+    border-radius: 4rem;
+}
+
+.v-bottom {
+    vertical-align: bottom;
+}
+
+hr {
+    background-color: #224d52;
+}
