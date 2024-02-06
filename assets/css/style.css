@@ -5,6 +5,7 @@
 
 body {
     font-family: aileron-regular;
+    line-height: 1.9;
 }
 
 a {
@@ -58,8 +59,9 @@ h3 {
     color: #224d52;
 }
 
-.bg-blueduck .navbar a:hover {
-    color: #b6f5d1bd; 
+.bg-blueduck a:hover,
+.bg-blueduck .navbar-item:hover {
+    color: #b6f5d1bd !important; 
 }
 
 .bg-aquablue,
