@@ -31,8 +31,8 @@ image: nos-ateliers
     <div class="column is-4-desktop is-8-mobile">
         <div>
         <div class="image is-1by1">
-            <img src="/assets/img/{{page.image}}.png" alt="">
-        </div>  
+            <img src="{{ '/assets//img/{{page.image}}.png?v=' | append: site.github.build_revision | relative_url }}" alt="">
+        </div>
         </div>
     </div>
 </div>
