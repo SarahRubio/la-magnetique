@@ -1,0 +1,27 @@
+<div class="hero is-fullheight">
+  <header class="mb-6 hero-head">
+
+    <nav class="navbar is-transparent is-spaced">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="{{ site.baseurl }}">
+          {% if page.logo %}
+          <img src="{{ site.baseurl }}/assets/img/{{ page.logo }}.png" alt="La magnétique">
+          {% else %}
+          <img src="{{ site.baseurl }}/assets/img/logo.png" alt="La magnétique">
+          {% endif %}
+        </a>
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end">
+            <a class="navbar-item is-size-4" href="{{ site.baseurl }}#ateliers">Nos ateliers</a>
+            <a class="navbar-item is-size-4" href="{{ site.baseurl }}/pages/contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
