@@ -149,8 +149,10 @@ h3 {
     font-size: 1.5rem;
 }
 
-.navbar-item img {
-    max-height: 2.75rem;
+@media screen and (min-width: 769px) {
+    .navbar-item img {
+        max-height: 2.75rem;
+    }
 }
 
 a.navbar-item:hover {
