@@ -187,3 +187,11 @@ footer {
     border: solid 2px #224d52;
     border-radius: 4rem;
 }
+
+.card {
+    border-radius: 3rem !important;
+}
+
+.card-content {
+    border-radius: 0 0 2rem 2rem !important;
+}
