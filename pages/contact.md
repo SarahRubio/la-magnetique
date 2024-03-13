@@ -10,12 +10,12 @@ logo: logo-aquablue
         <div class="column is-8">
           <h1 class="mb-5">{{ page.title }}</h1>
         </div>
-        <p class="column is-8-desktop is-10-mobile">lamagnetique.asso@gmail.com</p>
-        <p class="column is-8 is-10-mobile">
+        <p class="column is-8-desktop is-10-mobile is-size-5">lamagnetique.asso@gmail.com</p>
+        <p class="column is-8 is-10-mobile is-size-5">
           <a href="https://www.facebook.com/Lamagnetiqueasso" target="_blank" rel="noopener">Facebook</a> | 
           <a href="https://www.instagram.com/lamagnetique_/" target="_blank" rel="noopener">Instagram</a>
         </p>
-        <p class="column is-8"><a href="https://drive.google.com/file/d/1sWW07rQDw_A5ZPVyy97fTvKIqikswr6z/view?usp=drive_link" target="_blank" rel="noopener">Télécharger la maquette du projet au format pdf</a></p>
+        <p class="column is-8 is-size-5 mt-4"><a href="https://drive.google.com/file/d/1sWW07rQDw_A5ZPVyy97fTvKIqikswr6z/view?usp=drive_link" target="_blank" rel="noopener" class="btn-aquablue">Télécharger la présentation PDF</a></p>
     </div>
   </div>
   <div class="hero-foot"></div>

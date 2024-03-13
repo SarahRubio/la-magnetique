@@ -19,7 +19,7 @@ background-color: aquablue
             <br>
     </div>
     <div class="column is-8-desktop is-10-mobile columns is-multiline is-centered">
-        <div class="column is-full"><h2 class="mt-5">Les intervenants</h2></div>
+        <div class="column is-full"><h2 class="mt-5 is-size-4">Les intervenants</h2></div>
         <div class="column is-full p-0"></div>
         <div class="column is-6">
             <h3 class="mt-0">&rarr; Florian Sauvaire</h3>

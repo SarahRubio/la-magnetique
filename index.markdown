@@ -29,8 +29,8 @@ image: nos-ateliers
 
   <div class="hero-body-padding-small">
       <div class="columns is-mobile is-multiline is-centered is-vcentered {{ page.layout }}">
-        <div class="column is-10-desktop is-10-touch is-12-tablet is-12-mobile is-centered is-vcentered columns is-multiline">
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+        <div class="column is-8-fullhd is-10-desktop is-10-touch is-12-tablet is-12-mobile is-centered is-vcentered columns is-multiline">
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
                   <a class="card-link" href="{{ site.baseurl }}/pages/atelier-doublage" title="doublage">
                     <div class="card-image">
@@ -44,7 +44,7 @@ image: nos-ateliers
                   </a>
               </div>
           </div>
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
                 <a href="{{ site.baseurl }}/pages/atelier-carte-postale-sonore" title="Carte postale sonore">
                   <div class="card-image">
@@ -58,7 +58,7 @@ image: nos-ateliers
                 </a>
               </div>
           </div>
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
                 <a href="{{ site.baseurl }}/pages/atelier-boite-a-sons" title="Boîte à sons">
                   <div class="card-image">
@@ -72,7 +72,7 @@ image: nos-ateliers
                 </a>
               </div>
           </div>
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
                 <a href="{{ site.baseurl }}/pages/atelier-lutherie-electronique" title="Lutherie électronique">
                   <div class="card-image">
@@ -86,7 +86,21 @@ image: nos-ateliers
                 </a>
               </div>
           </div>
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+            <div class="card">
+              <a href="{{ site.baseurl }}/pages/atelier-paysage-sonore" title="Paysage sonore">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="{{ site.baseurl }}/assets/img/paysage-sonore-mini.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div id="bg-orange" class="card-content has-text-centered is-size-5">
+                  <p>Paysage sonore</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
                 <a href="{{ site.baseurl }}/pages/atelier-piezo" title="Piezo">
                   <div class="card-image">
@@ -100,21 +114,7 @@ image: nos-ateliers
                 </a>
               </div>
           </div>
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
-              <div class="card">
-                <a href="{{ site.baseurl }}/pages/atelier-paysage-sonore" title="Paysage sonore">
-                  <div class="card-image">
-                    <figure class="image">
-                      <img src="{{ site.baseurl }}/assets/img/paysage-sonore-mini.png" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div id="bg-orange" class="card-content has-text-centered is-size-5">
-                    <p>Paysage sonore</p>
-                  </div>
-                </a>
-              </div>
-          </div>
-          <div class="column is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
+          <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
                 <a href="{{ site.baseurl }}/pages/ateliers-sur-mesure" title="Ateliers sur mesure">
                   <div class="card-image">
