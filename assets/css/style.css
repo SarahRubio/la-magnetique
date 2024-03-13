@@ -195,7 +195,9 @@ footer {
 }
 
 .card {
-    border-radius: 3rem !important;
+    border-radius: 2rem !important;
+    background-color: inherit;
+    box-shadow: none;
 }
 
 .card-content {
