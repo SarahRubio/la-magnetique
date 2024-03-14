@@ -159,6 +159,11 @@ a.navbar-item:hover {
     color: #224d52c2 !important;
 }
 
+.navbar-menu {
+    background-color: inherit;
+    box-shadow: none;
+}
+
 strong {
     color: inherit;
 }
