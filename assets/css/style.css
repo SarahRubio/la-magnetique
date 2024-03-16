@@ -134,7 +134,7 @@ h3 {
 
 /* override Bulma navbar */
 .navbar {
-    background-color: inherit;
+    background-color: inherit !important;
 }
 
 .navbar-burger {
@@ -142,7 +142,7 @@ h3 {
 }
 
 .navbar-item, .navbar-link {
-    color: inherit;
+    color: inherit !important;
 }
 
 .navbar-end {
@@ -157,6 +157,10 @@ h3 {
 
 a.navbar-item:hover {
     color: #224d52c2 !important;
+}
+
+a.navbar-item:focus, a.navbar-item:hover{
+    background-color: inherit;
 }
 
 .navbar-menu {

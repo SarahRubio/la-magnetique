@@ -6,7 +6,7 @@ logo: logo-aquablue
 ---
 
   <div class="hero-body-padding-small">
-    <div class="columns is-mobile is-multiline is-centered has-text-centered">
+    <div class="columns is-mobile is-multiline is-centered has-text-centered mb-6">
         <div class="column is-8">
           <h1 class="mb-5">{{ page.title }}</h1>
         </div>
