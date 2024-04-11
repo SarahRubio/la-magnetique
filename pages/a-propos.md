@@ -25,7 +25,6 @@ background-color: aquablue
             <h2 class="mb-5 is-size-4">Les intervenants</h2>
           </div>
           <div class="column is-6-desktop is-11-touch is-11-mobile">
-            <h3>Florian Sauvaire</h3>
             <div class="columns is-mobile my-5">
               <div class="column is-6-desktop is-8-touch is-12-mobile p-0">
                 <figure class="image">
@@ -33,12 +32,12 @@ background-color: aquablue
                 </figure>
               </div>
             </div>
+            <h3>Florian Sauvaire</h3>
             <p class="mb-5">Batteur de formation, Florian a développé sa carrière musicale en Angleterre où il a passé plus de 10 ans à collaborer avec de multiples artistes (Ghostpoet, Roxanne Tataei, Will Joseph Cook, Deafkid).</p>
             <p class="mb-5">En 2021, Il se réinstalle en France et se dédie à son projet solo Flo/so (Electro-Pop) avec lequel il se produit aujourd’hui en live (Trans Musicales de Rennes,FrancOff de La Rochelle, présélections régionales des Inouïs du Printemps de Bourges, etc.).</p>
             <p class="mb-5">Au fil du temps, Florian a développé une solide connaissance de la production musicale par ordinateur, du mix en tant que DJ, et de l’utilisation de machines électroniques en tout genre.</p>
           </div>
           <div class="column is-6-desktop is-11-touch is-11-mobile">
-            <h3>Achille Reig</h3>
             <div class="columns is-mobile my-5">
               <div class="column is-6-desktop is-8-touch is-12-mobile p-0">
                 <figure class="image">
@@ -46,6 +45,7 @@ background-color: aquablue
                 </figure>
               </div>
             </div>
+            <h3>Achille Reig</h3>
             <p class="mb-5">Après une licence 3 en pédagogie musicale, Achille est diplômé musicien intervenant en 2018 au CFMI de Tours.</p>
             <p class="mb-5">Il travaille ensuite 3 ans comme technicien son/pédagogue, au sein du studio d’enregistrement du “4” à Châtellerault, structure publique dédiée à l’aide au développement des pratiques artistiques chez les jeunes (ateliers d’enregistrement, beatmaking, MAO, composition, doublage de film, accompagnement à la scène, etc.).</p>
             <p class="mb-5">Après de nombreuses expériences comme auteur/compositeur/interprète, il co-fonde le projet “Vol de nuit” (Pop- Rock Fr) en 2018. Leur premier EP sorti en 2021 leur ouvrira les portes du live (présélections régionales des Inouïs du Printemps de Bourges, Top 100 du Ricard Live, FrancOff de La Rochelle).</p>
