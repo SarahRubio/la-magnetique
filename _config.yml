@@ -2,7 +2,6 @@ title: La magnétique
 theme: minima
 url: "https://la-magnetique.fr" # the base hostname & protocol for your site
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate 
   - jekyll-redirect-from 
@@ -17,10 +16,10 @@ defaults:
       path: "assets/**"
     values:
       sitemap: false
-
+lang: fr
 timezone: Europe/Paris
 tagline: Laboratoire d'expérimentation et de création sonore sous forme d'ateliers
-author: Florian Sauvaire
+author: Florian Sauvaire, Achille Reig
 social:
   links:
     - https://www.facebook.com/Lamagnetiqueasso
