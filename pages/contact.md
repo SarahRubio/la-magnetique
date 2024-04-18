@@ -14,7 +14,8 @@ logo: logo-aquablue
         <p class="column is-8-desktop is-10-touch is-12-mobile is-size-5-desktop is-size-6-mobile">lamagnetique.asso@gmail.com</p>
         <p class="column is-8-desktop is-10-touch is-12-mobile is-size-5-desktop is-size-6-mobile">
           <a href="https://www.facebook.com/Lamagnetiqueasso" target="_blank" rel="noopener">Facebook</a> | 
-          <a href="https://www.instagram.com/lamagnetique_/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.instagram.com/lamagnetique_/" target="_blank" rel="noopener">Instagram</a> |
+          <a href="https://www.youtube.com/@laMagnetique-cq6ot" target="_blank" rel="noopener">Youtube</a>
         </p>
         <p class="column is-8-desktop is-10-touch is-12-mobile is-size-5-desktop is-size-6-mobile mt-4"><a href="https://drive.google.com/file/d/1sWW07rQDw_A5ZPVyy97fTvKIqikswr6z/view?usp=drive_link" target="_blank" rel="noopener" class="btn-aquablue">Télécharger la présentation PDF</a></p>
     </div>
