@@ -1,5 +1,6 @@
 ---
 title: Atelier Carte postale sonore
+og-description:
 background-color: yellow
 image: carte-postale-sonore
 intro: ["Lors de cet atelier, nous allons créer une carte postale sonore. C’est en fait un paysage auditif de notre monde, et chaque carte postale sonore peut refléter un univers particulier : un quartier, un parc, un festival, un trajet, etc... Chacun de ces paysages sonores possède des sons propres qui le caractérise : le bruit d’une porte, d’un parquet qui craque, d’une foule... Réaliser une carte postale sonore c’est enregistrer ces sons, et les structurer entre eux, afin de raconter des histoires, donner de la vie à des espaces, des personnages et à des lieux.", "Afin d’accompagner le paysage, les participant.es seront invité.es à

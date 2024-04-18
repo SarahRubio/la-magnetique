@@ -1,5 +1,6 @@
 ---
 title: Atelier Paysage Sonore
+og-description:
 background-color: orange
 image: paysage-sonore
 intro: [

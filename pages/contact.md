@@ -1,6 +1,7 @@
 ---
 layout: default-with-hero
 title: Contact
+og-description:
 background-color: blueduck
 logo: logo-aquablue
 ---

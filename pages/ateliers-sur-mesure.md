@@ -1,5 +1,6 @@
 ---
 title: Atelier sur mesure
+og-description:
 background-color: azur
 image: ateliers-sur-mesure
 intro: [

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: À propos
+og-description: 
 background-color: aquablue
 ---
 

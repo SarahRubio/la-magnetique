@@ -1,5 +1,6 @@
 ---
 title: Atelier Lutherie Électronique
+og-description:
 background-color: aquablue
 image: lutherie-electronique
 intro: [

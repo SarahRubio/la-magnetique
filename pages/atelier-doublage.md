@@ -1,5 +1,6 @@
 ---
 title: Atelier Doublage
+og-description:
 background-color: azur
 image: doublage
 intro: ["Dans cet atelier, tout est permis pour recréer la bande-son d’un extrait de film ! Bruitages avec des objets récoltés, imitations, improvisation, invention de dialogues, etc.", "L’objectif est d’amener les participants à collaborer afin de faire briller leur créativité.", "C’est un vrai travail d’équipe, qui permet d’apprendre en s’amusant, de découvrir un univers artistique complet, de la technique son à l’écriture de texte, en passant par l’expression orale."]
