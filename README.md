@@ -8,7 +8,7 @@ Ce site est construit avec [Jekyll](https://jekyllrb.com/) et déployé sur Gith
 
 ### Développement en local
 
-Prérequis : 
+#### Prérequis : 
 - Ruby
 - Jekyll
 
@@ -16,6 +16,6 @@ Prérequis :
 
     bundle install
 
-#### Lancement du serveur : 
+#### Lancement du serveur :
 
     bundle exec jekyll serve
