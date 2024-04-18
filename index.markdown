@@ -1,11 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 background-color: aquablue
 title: Laboratoire d'expérimentations et de créations sonores sous forme d'ateliers
-image: nos-ateliers
+og-description: 
 ---
 
 <div class="hero is-medium">
