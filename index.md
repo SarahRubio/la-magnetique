@@ -1,7 +1,7 @@
 ---
 layout: default
 background-color: aquablue
-title: La Magnétique :\ Laboratoire d'expérimentations et de créations sonores
+title: Laboratoire d'expérimentations et de créations sonores
 og-description: La Magnétique est une association dont l’ambition est de démocratiser les pratiques musicales collectives et les cultures numériques en proposant des ateliers sonores hybrides.
 ---
 
