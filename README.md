@@ -119,40 +119,40 @@ Il faut se rendre sur la page index.md et modifier le nom présent dans la balis
 Les couleurs sont définies dans le fichier `assets/css/style.css` avec des codes couleur. Exemple avec une couleur nommée `bg-yellow`. À ce nom de couleur est associé :
 
 - une couleur de fond : `background-color` et une couleur pour le texte: `color` :
-    .bg-yellow, #bg-yellow {
-        background-color: #f5faa0;
-        color: #224d52;
-    }
 
-- une couleur de fond en cas de survol: `background-color`et une couleur pour le texte: `color`.
+        .bg-yellow, #bg-yellow {
+            background-color: #f5faa0;
+            color: #224d52;
+        }
 
-    #bg-yellow:hover {
-        background-color: #f5faa0c4;
-    }
+- une couleur de fond en cas de survol: `background-color`et une couleur pour le texte: `color`:
+  
+        #bg-yellow:hover {
+            background-color: #f5faa0c4;
+        }
 
 - une couleur de fond : `background-color`pour les  titres principaux et une couleur pour le texte des titres principaux (`h1` et `h2`):
+  
+        .bg-yellow h1,
+        .bg-yellow h2 {
+            background-color: #224d52;
+            color: #f5faa0;
+        }
 
-    .bg-yellow h1,
-    .bg-yellow h2 {
-        background-color: #224d52;
-        color: #f5faa0;
-    }   
-
-Si on veut ajouter une nouvelle couleur on peut dupliquer ces trois snippets de code et modifier le nom ainsi que les codes pour les différents éléments. exemple : 
+Si on veut ajouter une nouvelle couleur on peut dupliquer ces trois snippets de code et modifier le nom ainsi que les codes pour les différents éléments. exemple:   
 
         .bg- h1, .bg-black h2 {
             background-color: #00000;
             color: #fffff;
         }   
 
-
-
 ### modification de la page contact
 
 #### modification des liens
 
 Un lien s'écrit en html comme ceci : 
-        <a href="https://monlien.fr" target="_blank" rel="noopener">Mon Lien</a>
+
+    <a href="https://monlien.fr" target="_blank" rel="noopener">Mon Lien</a>
 
 Pour modifier un lien existant il suffit de modifier l'url dans la balise `href` et le nom du bouton si besoin qui est entre `<a>` et `</a>`.
 
