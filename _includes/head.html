@@ -1,14 +1,16 @@
 <head>
   <meta charset="UTF-8">
-  <title>La magnétique | {{ page.title }}</title>
+  <title>{{ page.title }} | La magnétique </title>
   <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png"/>
   <meta name="robots" content="index, follow">
-  <meta property="og:title" content="La magnétique | {{ page.title }}" />
-  <meta property="og:description" content="{{ page.og-description }}" />
   <meta name="description" content="{{ page.og-description }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#157878">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta property="og:title" content="La magnétique | {{ page.title }}" />
+  <meta property="og:description" content="{{ page.og-description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lamagnetique.fr" />
+  <meta property="og:site_name" content="La magnétique" />
   <link rel="stylesheet" href="{{ '/assets/css/bulma.min.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="preconnect" href="https://fonts.gstatic.com">
