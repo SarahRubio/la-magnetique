@@ -36,7 +36,7 @@ og-description: La Magnétique est une association dont l’ambition est de dém
                       </figure>
                     </div>
                     <div id="bg-azur" class="card-content has-text-centered is-size-5">
-                      <p>Doublage</p>
+                      <p>Bruitage & doublage</p>
                     </div>
                   </a>
               </div>
