@@ -29,14 +29,14 @@ og-description: La Magnétique est une association dont l’ambition est de dém
         <div class="column is-8-fullhd is-10-desktop is-10-touch is-12-tablet is-12-mobile is-centered is-vcentered columns is-multiline">
           <div class="column is-narrow-fullhd is-4-desktop is-offset-2-touch is-8-touch is-4-tablet is-12-mobile">
               <div class="card">
-                  <a class="card-link" href="{{ site.baseurl }}/pages/atelier-doublage" title="bruitage & doublage">
+                  <a class="card-link" href="{{ site.baseurl }}/pages/atelier-doublage" title="doublage">
                     <div class="card-image">
                       <figure class="image">
                         <img src="{{ site.baseurl }}/assets/img/doublage-mini.png" alt="Placeholder image">
                       </figure>
                     </div>
                     <div id="bg-azur" class="card-content has-text-centered is-size-5">
-                      <p>Bruitage & doublage</p>
+                      <p>Doublage</p>
                     </div>
                   </a>
               </div>
