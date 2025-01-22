@@ -1,5 +1,5 @@
 ---
-title: Atelier Doublage
+title: Atelier Bruitage & Doublage
 og-description:
 background-color: azur
 image: doublage
